@@ -1,9 +1,5 @@
 require 'livestream/version'
+require 'livestream/api/init'
 
 module Livestream
-  class << self
-    def get_douyu_stream(room_id)
-	    puts room_id
-    end
-  end
 end
